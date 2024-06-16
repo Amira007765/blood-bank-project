@@ -6,3 +6,12 @@ install:
 script:
   - pytest
 
+language: node_js
+node_js:
+  - "14"
+
+install:
+  - npm install
+
+script:
+  - npm test
